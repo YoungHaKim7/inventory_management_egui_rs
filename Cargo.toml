@@ -1,0 +1,10 @@
+[package]
+name = "inventory_management_egui_rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = { version = "0.32.0", features = ["__screenshot"] }
+egui_extras = { version = "0.32.0", features = ["image"] }
+env_logger = "0.11.8"
+
